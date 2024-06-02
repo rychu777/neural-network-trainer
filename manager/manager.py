@@ -9,7 +9,7 @@ class MainWindowManager(QMainWindow):
     def __init__(self):
         super(MainWindowManager, self).__init__()
         self.ui = UiMainWindow(self)
-        icon = QIcon('/Images/icon.png')
+        icon = QIcon('Images/icon.png')
         self.setWindowIcon(icon)
 
         self.ui.pushButton.clicked.connect(self.open_directory_dialog)
@@ -22,10 +22,10 @@ class MainWindowManager(QMainWindow):
         self.ui.pushButton_10.clicked.connect(self.go_to_second_page)
         self.ui.pushButton_11.clicked.connect(self.go_to_first_page)
 
-        self.pixmap = QPixmap('/Images/roc.png')
+        self.pixmap = QPixmap('Images/roc.png')
         self.ui.label_34.setPixmap(self.pixmap)
 
-        self.movie = QMovie('/Images/neural.gif')
+        self.movie = QMovie('Images/neural.gif')
         self.ui.label_2.setMovie(self.movie)
 
         self.movie.setSpeed(170)
@@ -154,6 +154,6 @@ class MainWindowManager(QMainWindow):
         self.ui.label_46.setText(f'{self.conf_matrix[0][0]}')
 
         self.model.plot_roc_curve(self.predictions)
-        self.pixmap = QPixmap('/Images/curve.png')
+        self.pixmap = QPixmap('Images/curve.png')
 
         self.go_to_fourth_page()
