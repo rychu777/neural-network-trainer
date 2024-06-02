@@ -1,11 +1,17 @@
-from manager import Manager
+from manager import MainWindowManager
 from PySide6.QtWidgets import QApplication
 import sys
 
 
-def main():
+def main() -> None:
+    """
+    Main method to run the application.
+
+    Returns:
+    :return: None
+    """
     app = QApplication(sys.argv)
-    manager = Manager()
+    manager = MainWindowManager()
     manager.show()
     sys.exit(app.exec())
 

@@ -418,9 +418,16 @@ class UiMainWindow(object):
 
         QMetaObject.connectSlotsByName(MainWindow)
 
-    # setupUi
+    def retranslateUi(self, MainWindow) -> None:
+        """
+        Adding text in appropriate objects (Translated if needed).
 
-    def retranslateUi(self, MainWindow):
+        Args:
+
+
+        Returns:
+        :return: None
+        """
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Neural Network Trainer", None))
         self.label_2.setText("")
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"LOAD DATA", None))

@@ -5,9 +5,9 @@ from building_the_model import NeuralNetworkClassifier
 from gui_creation import UiMainWindow
 
 
-class Manager(QMainWindow):
+class MainWindowManager(QMainWindow):
     def __init__(self):
-        super(Manager, self).__init__()
+        super(MainWindowManager, self).__init__()
         self.ui = UiMainWindow(self)
         icon = QIcon('C:/Users/ryszk/PycharmProjects/NeuralNetworkClassifier/Images/icon.png')
         self.setWindowIcon(icon)
