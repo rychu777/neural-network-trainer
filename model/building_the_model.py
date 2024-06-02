@@ -132,7 +132,7 @@ class NeuralNetworkClassifier:
         :return: np.ndarray: Predicted values.
         """
         if self.model is None:
-            raise ValueError("Model has not been trained yet.")
+            raise ValueError("model has not been trained yet.")
 
         return self.model.predict(self.dataset_test_values)
 
