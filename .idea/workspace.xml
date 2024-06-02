@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45fd741-09b8-483c-a457-7de43765ea75" name="Changes" comment="Adding signatures, new curve.png">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a45fd741-09b8-483c-a457-7de43765ea75" name="Changes" comment="Adding signatures, new curve.png" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717337935908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding signatures, new curve.png">
+      <created>1717346552782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717346552782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Publishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Publishing" />
+    <MESSAGE value="Adding signatures, new curve.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding signatures, new curve.png" />
   </component>
 </project>
