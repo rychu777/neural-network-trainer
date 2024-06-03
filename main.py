@@ -1,4 +1,4 @@
-from manager.manager import MainWindowManager
+from manager.main_window_manager import MainWindowManager
 from PySide6.QtWidgets import QApplication
 import sys
 
