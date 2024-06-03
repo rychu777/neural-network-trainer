@@ -155,5 +155,6 @@ class MainWindowManager(QMainWindow):
 
         self.model.plot_roc_curve(self.predictions)
         self.pixmap = QPixmap('Images/curve.png')
+        self.ui.label_34.setPixmap(self.pixmap)
 
         self.go_to_fourth_page()
