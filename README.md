@@ -10,4 +10,4 @@ Neural network training tool prepared for my **15-min-gamba** project.
 - Matplotlib
 
 ## About
-Helps with adjusting hyper params by providing user friendly graphic interface.
+Helps with adjusting hyper params by providing user-friendly graphic interface.
